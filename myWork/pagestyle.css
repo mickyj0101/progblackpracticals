@@ -1,0 +1,35 @@
+h1,h2,h3,p,li {
+    color:#bbbbbb;
+    font-family:monospace;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:32vw 32vw 32vw;
+    gap:1vw;
+}
+.centred{
+    text-align:center;
+}
+.justified{
+    text-align:justify;
+}
+.title{
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+}
+.main{
+    column-count: 3;
+}
+body{
+    background-color:#001f00;
+}
+body{
+    margin:1vw;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: darkred;
+}
